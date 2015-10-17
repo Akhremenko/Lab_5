@@ -36,7 +36,7 @@
     <ClCompile Include="Kapitan.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
-    <ClCompile Include="Kontroller.cpp">
+    <ClCompile Include="Port.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
   </ItemGroup>
@@ -59,7 +59,7 @@
     <ClInclude Include="Kapitan.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="Kontroller.h">
+    <ClInclude Include="Port.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
   </ItemGroup>

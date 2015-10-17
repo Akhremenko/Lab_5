@@ -146,7 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Kontroller.cpp" />
+    <ClCompile Include="Port.cpp" />
     <ClCompile Include="Korabl.cpp" />
     <ClCompile Include="Korvet.cpp" />
     <ClCompile Include="main.cpp" />
@@ -157,7 +157,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Kapitan.h" />
-    <ClInclude Include="Kontroller.h" />
+    <ClInclude Include="Port.h" />
     <ClInclude Include="Korabl.h" />
     <ClInclude Include="Korvet.h" />
     <ClInclude Include="Parahod.h" />

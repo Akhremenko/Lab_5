@@ -1,26 +1,20 @@
-﻿Сборка начата 14.10.2015 17:00:45.
-     1>Проект "E:\work\2 курс, 1 семестр\ООП\Лабораторная работа №4\laba 3\laba 3.vcxproj" в узле 2 (целевые объекты Build).
+﻿Сборка начата 17.10.2015 17:17:08.
+     1>Проект "C:\Users\Анастасия\Documents\GitHub\Lab_5\laba 3\laba 3.vcxproj" в узле 2 (целевые объекты Build).
      1>ClCompile:
-         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Korabl.cpp Korvet.cpp Parahod.cpp Parusnik.cpp Transportnoe_sredstvo.cpp main.cpp
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-         Создание кода...
-         Пропуск... (изменения не обнаружены)
-         Transportnoe_sredstvo.cpp
-         Parusnik.cpp
-         Parahod.cpp
-         Korvet.cpp
-         Korabl.cpp
        Link:
-         D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\work\2 курс, 1 семестр\ООП\Лабораторная работа №4\Debug\laba 3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\work\2 курс, 1 семестр\ООП\Лабораторная работа №4\Debug\laba 3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\work\2 курс, 1 семестр\ООП\Лабораторная работа №4\Debug\laba 3.lib" /MACHINE:X86 Debug\Korabl.obj
+         D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Анастасия\Documents\GitHub\Lab_5\Debug\laba 3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Анастасия\Documents\GitHub\Lab_5\Debug\laba 3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Анастасия\Documents\GitHub\Lab_5\Debug\laba 3.lib" /MACHINE:X86 Debug\Port.obj
+         Debug\Korabl.obj
          Debug\Korvet.obj
          Debug\main.obj
          Debug\Parahod.obj
          Debug\Parusnik.obj
          Debug\Kapitan.obj
          Debug\Transportnoe_sredstvo.obj
-         laba 3.vcxproj -> E:\work\2 курс, 1 семестр\ООП\Лабораторная работа №4\Debug\laba 3.exe
-     1>Сборка проекта "E:\work\2 курс, 1 семестр\ООП\Лабораторная работа №4\laba 3\laba 3.vcxproj" завершена (целевые объекты Build).
+         laba 3.vcxproj -> C:\Users\Анастасия\Documents\GitHub\Lab_5\Debug\laba 3.exe
+     1>Сборка проекта "C:\Users\Анастасия\Documents\GitHub\Lab_5\laba 3\laba 3.vcxproj" завершена (целевые объекты Build).
 
 Сборка успешно завершена.
 
-Затраченное время: 00:00:04.60
+Затраченное время: 00:00:01.89

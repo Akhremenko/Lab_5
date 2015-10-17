@@ -1,5 +1,6 @@
 #pragma once
 #include "Kapitan.h"
+#include "Port.h"
 
 class Transportnoe_sredstvo
 {
@@ -12,9 +13,9 @@ public:
 	char* getNazvanie();
 	void setNazvanie(char*);
 	virtual void print() = 0;
-	void add();		// добавить элемент в список
-	static void show();		// вывести весь список
-	Transportnoe_sredstvo* next;
-protected:
-	static Transportnoe_sredstvo* head;
+	//void add();		// добавить элемент в список
+	//static void show();		// вывести весь список
+	//Transportnoe_sredstvo* next;
+public:
+	//static Transportnoe_sredstvo* head;
 };
