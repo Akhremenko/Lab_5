@@ -10,39 +10,24 @@
 using namespace std;
 
 
-
-void Port::add2()
+void Port::insert(Transportnoe_sredstvo *p)
 {
-	if (!head)
-	{
-		head = this;
-		this->next = NULL;
-	}
-	else
-	{
-		Port* q = head;
-		if (q->next == NULL)
-		{
-			q->next = this;
-			this->next = NULL;
-		}
-		else
-		{
-			while (q->next != NULL)
-				q = q->next;
-			q->next = this;
-			this->next = NULL;
-		}
-	}
-}
+	Transportnoe_sredstvo *r;
+	r = begin;
+	begin = p;
+	p->next = r;
+}
 int Port::srVodoIzm()
 {
-	/*Transportnoe_sredstvo* t = Transportnoe_sredstvo::head;
+	int sum = 0;
+	Transportnoe_sredstvo* t;
 	while (t)
 	{
-		t->;		
+		if (typeid(*t) == typeid(Parusnik))
+		{
+			sum += dynamic_cast<Parusnik*>(t)->getVodoIzm;
+		}
 		t = t->next;
-
-	}*/
- return 0;
+	}
+ return sum;
 }

@@ -1,4 +1,5 @@
 #pragma once
+#include "Transportnoe_sredstvo.h"
 
 class Port
 {
@@ -6,8 +7,8 @@ public:
 	int srVodoIzm();
 	int srKolMest();
 	void naitiMolodogoKapitana();
-	void add2(); 
+	void insert(Transportnoe_sredstvo*);
 	Port* next;
-protected:
-	static Port* head;
+private:
+	Transportnoe_sredstvo* begin;
 };
