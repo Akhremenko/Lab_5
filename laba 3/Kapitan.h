@@ -2,6 +2,7 @@
 
 class Kapitan
 {
+public:
 	int age;
 	char* name;
 
@@ -13,4 +14,7 @@ public:
 	char* getName();
 	void setName(char*);
 	void printK();
+	friend class Parusnik;
+	friend class Parahod;
+	friend class Transportnoe_sredstvo;
 };

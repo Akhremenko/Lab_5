@@ -26,6 +26,6 @@ void Parahod::print()
 {
 		cout << "Название корабля: " << getNazvanie() << endl;
 		cout << "Колличество труб парахода:  " << getKolMest() << endl;
-		cout << "Имя капитана: " << this->kap.getName() << endl;
-		cout << "Возраст капитана: " << this->kap.getAge() << endl;
+		cout << "Имя капитана: " << kap.name << endl;
+		cout << "Возраст капитана: " << kap.age << endl;
 }

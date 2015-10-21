@@ -1,8 +1,8 @@
-﻿Сборка начата 17.10.2015 17:17:08.
+﻿Сборка начата 20.10.2015 17:47:27.
      1>Проект "C:\Users\Анастасия\Documents\GitHub\Lab_5\laba 3\laba 3.vcxproj" в узле 2 (целевые объекты Build).
      1>ClCompile:
-         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
-         main.cpp
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Parusnik.cpp
+         Parusnik.cpp
        Link:
          D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Анастасия\Documents\GitHub\Lab_5\Debug\laba 3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Анастасия\Documents\GitHub\Lab_5\Debug\laba 3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Анастасия\Documents\GitHub\Lab_5\Debug\laba 3.lib" /MACHINE:X86 Debug\Port.obj
          Debug\Korabl.obj
@@ -17,4 +17,4 @@
 
 Сборка успешно завершена.
 
-Затраченное время: 00:00:01.89
+Затраченное время: 00:00:05.02

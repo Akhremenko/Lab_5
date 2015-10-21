@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include"Korvet.h"
 #include"Transportnoe_sredstvo.h"
@@ -7,49 +8,59 @@
 #include"Kapitan.h"
 
 using namespace std;
-
-Transportnoe_sredstvo* Transportnoe_sredstvo::head = NULL;
+Port Portik;
 
 int main()
 {
+	int age, kolvo;
+	char *name = new char[128], *nazvanie = new char[128];
 	setlocale(LC_CTYPE, "Russian");
-	//Transportnoe_sredstvo::show();
+	Parahod *Par = new Parahod;
+	cin >> kolvo;
+	(*Par).setKolMest(kolvo);
+	cin >> nazvanie;
+	(*Par).setNazvanie(nazvanie);
+	cin >> name;
+	(*Par).kap.setName(name);
+	cin >> age;
+	(*Par).kap.setAge(age);
+    Portik.insert(Par);
 
-	Parusnik a;
-	Korabl c;
-	Parahod d;
-	Parusnik e;
-	Korvet f;
+	Parahod *Pr = new Parahod;
+	cin >> kolvo;
+	(*Pr).setKolMest(kolvo);
+	cin >> nazvanie;
+	(*Pr).setNazvanie(nazvanie);
+	cin >> name;
+	(*Pr).kap.setName(name);
+	cin >> age;
+	(*Pr).kap.setAge(age);
+	Portik.insert(Pr);
 
-	//a.add();
-	//a.kap.setName("Александр");
-	//a.setVodoIzm(5);
-	//d.setKolMest(9);
-	//d.add();
-	//c.setKolPushek(10);
-	//c.add();
-	//f.setSpeed(6);
-	//f.add();
+	Parusnik *Prs = new Parusnik;
+	cin >> kolvo;
+	(*Prs).setVodoIzm(kolvo);
+	cin >> nazvanie;
+	(*Prs).setNazvanie(nazvanie);
+	cin >> name;
+	(*Prs).kap.setName(name);
+	cin >> age;
+	(*Prs).kap.setAge(age);
+	Portik.insert(Prs);
 
-	int i=0;
-	for (;;)
-	{
-		switch (i)
-		{
-		case 0: cout << "0 - Показать меню" << endl;
-		cout << "1 - Добавить судно в список транспортных средств" << endl;
-		cout << "2 - Удалить судно в списке транспортных средств" << endl;
-		cout << "3 - Среднее вооизмещение всех парусников в порту" << endl;
-		cout << "4 - Среднее кол-во посадочных мест на пароходах" << endl;
-		cout << "5 - Все транспортные средства на которых плавают капитаны моложе 35 лет" << endl; 
-		cout << "6 - Выход" << endl; break;
-		case 1: a.
-		case 6:break;
+	Parusnik *Pas = new Parusnik;
+	cin >> kolvo;
+	(*Pas).setVodoIzm(kolvo);
+	cin >> nazvanie;
+	(*Pas).setNazvanie(nazvanie);
+	cin >> name;
+	(*Pas).kap.setName(name);
+	cin >> age;
+	(*Pas).kap.setAge(age);
+	Portik.insert(Pas);
 
-		default:
-			break;
-		}
-		cin >> i;
-	}
+	cout<<"Среднее кол-во мест: "<<Portik.srKolMest()<<endl;
+	cout << "Среднее кол-во водоизмещения: " << Portik.srVodoIzm() << endl;
+	Portik.naitiMolodogoKapitana();
 	return 0;
 }

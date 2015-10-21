@@ -1,6 +1,8 @@
 #pragma once
 #include "Transportnoe_sredstvo.h"
 
+class Transportnoe_sredstvo;
+
 class Port
 {
 public:
